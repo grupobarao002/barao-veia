@@ -14,4 +14,4 @@ function iniciajogo(){
             jogo.jogada(this.getAttribute ('data-index'));
         });
     });
-}
+} 
