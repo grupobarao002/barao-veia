@@ -11,7 +11,7 @@ function iniciajogo(){
 
     document.querySelectorAll('.celula').forEach(celular=>{
         celular.addEventListener('click', function(){
-            jogo.jogada(this.getAttribute ('data-index'));
+            jogo.jogada(this.getAttribute ('data-index')); 
         });
     });
 } 
