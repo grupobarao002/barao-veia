@@ -15,3 +15,20 @@ function iniciajogo(){
         });
     });
 } 
+class JogoDaVelha{
+    constructor(Jogador1,jogador2){
+        this.Jogador1=Jogador1;
+        this.jogador2=Jogador1;
+        this.placaJogador1=0;
+        this.placaJogador2=0;
+        this.JogadorAtual='x';
+        this.tabuleiro=Array(9).fill(null);
+        this.JogoAtivo=truer;
+        this.atualizarverJogador();
+    }
+    atualizarverjogador(){
+        const vezjogador =  this.jogadorAtual === 'x' ? this.jogador1 : this.jogador2
+        document.getElementById('vez-jogador')
+        .textContent  =  `vez de; $ {vezJogador}  (${this.jogadorAtual})`;
+    }
+}
