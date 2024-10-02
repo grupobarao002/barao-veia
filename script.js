@@ -31,5 +31,5 @@ class JogoDaVelha{
         document.getElementById('vez-jogador')
         .textContent  =  `vez de; $ {vezJogador}  (${this.jogadorAtual})`;
     }
-    renicia
+    r
 }
