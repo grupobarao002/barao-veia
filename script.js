@@ -1,6 +1,6 @@
  let jogo
 
-function iniciajogo(){
+function iniciaJogo(){
     const jogador1= document.getElementById('jogador1').value|| 'jogado1';
     const jogador2= document.getElementById('jogador2').value||'jogado2';
 
